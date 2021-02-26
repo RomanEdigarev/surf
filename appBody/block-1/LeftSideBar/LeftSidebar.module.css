@@ -1,0 +1,68 @@
+.container {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  min-width: 168px;
+  height: 100%;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 300;
+  transform: rotate(-180deg);
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.menuItem {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.menuItem > p {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 1.5;
+}
+
+.date {
+  text-align: center;
+}
+
+.date > h1 {
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.date > span {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.date:nth-child(2n) > span {
+  margin: 0 4px;
+}
+
+.date > div {
+  margin-top: 23px;
+}
+
+.date > div > span {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-left: 9px;
+}

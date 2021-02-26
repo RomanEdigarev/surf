@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.background > img {
+  /*width: 100%;*/
+  object-fit: contain;
+}
+
+.background > div {
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(23,25,25,0.5606617647058824) 0%, rgba(23,25,25,1) 100%)
+}

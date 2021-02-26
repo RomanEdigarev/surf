@@ -1,0 +1,22 @@
+{
+  "name": "surf",
+  "version": "1.0.0",
+  "description": "Surf",
+  "main": "index.js",
+  "author": "Roman Edigarev",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^3.6.7",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

@@ -1,0 +1,8 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}

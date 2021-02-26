@@ -1,0 +1,83 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 40px 80px 20px;
+}
+
+.titleContainer > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.titleContainer > div > span {
+  font-size: 22px;
+  color: white;
+  opacity: 0.25;
+  letter-spacing: 6px;
+}
+
+.line {
+  min-width: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  margin-right: 30px;
+}
+
+.titleContainer > h1 {
+  font-size: 80px;
+  font-weight: 300;
+  margin: 14px 0;
+}
+.titleContainer > h2 {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 33px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.item {
+  flex: 0.2;
+  height: 36px;
+  border-top: 4px solid white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.item :first-child {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.item :nth-child(2n) {
+  position: absolute;
+  line-height: 1.5;
+  bottom: 0;
+  right: 0;
+}
+
+.topArrows {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40px;
+  width: 68px;
+}
+
+.downArrow {
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+}
+
